@@ -46,7 +46,7 @@ $(document).ready(function(){
   });
   $('#equal').click(function(){
     if (display.value == "") {
-      alert("Escriba algo malparido!");
+      alert("Escriba algo, please!");
     }else{
       document.forms.display.value =
       eval(document.forms.display.value);
